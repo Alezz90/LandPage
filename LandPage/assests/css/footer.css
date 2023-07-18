@@ -1,0 +1,51 @@
+#footer {
+    display: flex;
+    grid-column: 1/4;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #f21f1f;
+    border-radius: 10px;
+    width: 95%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .footerheder {
+    
+    color: #f21f1f;
+  }
+  .MainFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5%;
+    font-family: Comic Sans MS;
+  }.MainFooter ul {
+    list-style: none;
+  }
+  #ContactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  #ContactForm input {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 1px;
+    margin-right: 16px;
+    font-size: 1vmax;
+  }
+  .butSubmit {
+    background-color: #75d19c;
+    box-shadow: 0 4px 8px 0 #f21f1f;
+    border: none;
+    width: 30%;
+    height: 20%;
+    margin: 7px;
+  }
+  .NAME {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }

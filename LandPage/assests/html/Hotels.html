@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="styleSheet" href="../css/pagesStyleSheets.css" />
+    <script src="../javaScript/app2.js" defer> </script>
+    
+    <title>Hotel</title>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="UpArrow" title="Top"></button>
+    <!--above heder-->
+    <div class="upheader">
+      <div id="left">
+        <a alt="wether" href="https://www.weathercrave.com/weather-forecast-oman/city-58619/weather-forecast-al-hamra-today/" >
+          <image id="iconSocial" src="/assests/icon/weather-2021-12-07.png" alt=""/>
+        </a>
+        <a alt=""
+          ><image id="iconSocial" src="/assests/icon/instagram.png" alt=""
+        /></a>
+        <a alt="" href="https://twitter.com/AlhamraNews?s=20"
+          ><image id="iconSocial" src="/assests/icon/twitter.png" alt=""
+        /></a>
+      </div>
+      <div id="right">
+        <input type="text" placeholder="Search.." />
+      </div>
+    </div>
+    <div class="container">
+      <!--heeeeeder-->
+      <div class="banner">
+        <div class="liftbanner">
+          <div id="hamburger"></div>
+        </div>
+        <div id="rightbanner">
+          <h1 class="heder1">Al_Hamra</h1>
+        </div>
+        <div id="new">
+        <nav nav id ="navM">
+          <ul id="listnav">
+            <li>
+              <a id="linkPages" href="../../index.html">Home</a>
+            </li>
+            <li>
+              <a id="linkPages" href="./Restaurant.html"
+                >Restaurants</a
+              >
+            </li>
+            <li>
+              <a id="linkPages" class="activ" href="./Hotels.html"
+                >Hotels</a
+              >
+            </li>
+            <li>
+              <a id="linkPages" href="./touristicPlaces.html"
+                >Natural places</a
+              >
+            </li>
+          </ul>
+        </nav></div>
+      </div>
+      <!--body-->
+    <div class="bodycontainer">
+      <!---left Side-->
+      <div id ="lift" class="leftSaid">
+        <div class="sidenav">
+           <!--<div class="subnav">-->    
+            <h3 class="leftSidheders">Hotels</h3>
+            <ul class="Place">
+              <li><p id="FirstCard" class="activ" >The view</p></li>
+              <li><p id="SecondCard">Sunrise Resort</p></li>
+              <li><p id="TherdCard">BaitAlBiteen</p></li>
+            </ul>
+        </div>
+      </div>
+      <!--body-->
+     <div class="content">
+        <div class="cardDescrption" id="FirstCard1">
+          <div class="CardLeft">
+            <h2 id="HotelDesc1">The view</h2>
+            <p>
+              you can do midtation<br />It is located in a stunning location
+              overlooking the Hajar Mountains and offers guests a unique and
+              memorable experience.
+            </p>
+            <button
+              type="button"
+              class="butcontact"
+              formaction="https://www.theviewoman.com/"
+            >
+              contact
+            </button>
+          </div>
+          <img
+            class="hotelPicture"
+            src="../image/theviewHotel.jpg"
+            alt="alhamra"
+          />
+        </div>
+        <div class="cardDescrption card2" id="SecondCard2">
+          <div class="CardLeft">
+            <h2 id="HotelDesc2">Sunrise Resort</h2>
+            <p>
+              Sunrise Resort offers comfortable rooms and chalets with amenities
+              such as private bathrooms, air conditioning, and some may have
+              balconies or terraces to enjoy the scenic views. The resort also
+              provides various facilities including a restaurant, outdoor
+              seating areas, and a bonfire area. it located in
+              <a href="./touristicPlaces.html">Jabal Shams</a>
+            </p>
+            <button class="butcontact">contact</button>
+          </div>
+          <img
+            class="hotelPicture"
+            src="../image/sunresot.jpg"
+            alt="alhamra"
+          />
+        </div>
+        <div class="cardDescrption" id="TherdCard3">
+          <div class="CardLeft">
+            <h2 id="HotelDesc3">BaitAlBaiteen</h2>
+            <p>
+              Hotel in
+              <a
+                href="https://amazingoman.net/2017/06/misfat-al-abriyeen-omani-village/"
+                >almisfa</a
+              ><br />old house<br />aaaaaaaaaaaaaaa
+            </p>
+            <button class="butcontact">contact</button>
+          </div>
+          <img
+            class="hotelPicture"
+            src="/assests//image/bitalbeetin.jpg"
+            alt="alhamra"
+          />
+        </div>
+      </div>
+    </div>
+      <!--fooooooter-->
+      <footer id="footer">
+        <div class="MainFooter">
+          <div id="quiqLink">
+            <h3 class="footerheder">Quick link</h3>
+            <ul>
+              <li>Minstry of alkargia</li>
+              <li>Minstry of tourism</li>
+              <li>center of help</li>
+            </ul>
+          </div>
+          <div id="important phone number">
+            <h3 class="footerheder">Quick Phone</h3>
+            <ul>
+              <li>Poic:9999</li>
+              <li>Hospital:99999</li>
+              <li>electrcity:9999</li>
+            </ul>
+          </div>
+          <div id="contact us">
+            <h3 class="footerheder">Contact us</h3>
+            <form id="ContactForm">
+              <input type="text" class="cont" value="Write yor message" />
+              <input type="email" class="cont" value="Email" />
+              <input type="button" value="Send" class="butSubmit" />
+            </form>
+          </div>
+        </div>
+        <div class="NAME"><p>ALezz AlAbri</p></div>
+      </footer>
+   
+  </body>
+</html>

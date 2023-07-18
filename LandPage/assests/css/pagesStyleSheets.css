@@ -1,0 +1,309 @@
+@import url("/assests/css/fontStylesheet.css");
+@import url("/assests/css/footer.css");
+@font-face {
+  font-family: Hedres;
+  src: url(/assests/Fonts/GamesStudios.otf);
+}
+  .upheader{
+    display:flex;
+    align-items: center;
+    background-color: white;  
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #f21f1f; 
+    width: 95%;
+    margin-left: 30px;
+}#right{
+    align-items: center;
+}
+#left{
+    display: block;
+    margin-left: 20px;
+}#iconSocial{
+    width:2%;
+  }
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top:1px;
+    margin-right: 16px;
+    font-size: 1vmax;
+  }.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+}
+.banner {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:auto;
+  gap: 5px;
+  align-self: center;
+  height:290px;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 #f21f1f;
+  background-image: url(/assests/image/alfurshisan.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 30px;
+} .liftbanner{
+  display: none; 
+} 
+#rightbanner {
+  grid-column: 1 /3;
+  grid-row: 1 /3;
+  padding: 0%;
+  align-self: center;
+}
+  #listnav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+   align-content: space-between;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+  } #listnav a:-webkit-any-link {
+    text-decoration: none;
+    color:black;
+  }
+  #listnav li {
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+    font-family: Hedres;
+    font-style: italic;
+    font-size: 3vmax;
+    color: black; 
+  } #listnav li:hover {
+    color: red; 
+    font-size: 3.2vmax;
+  } #listnav li:active {
+    background-color: #e9b8b8;
+  }.active {
+    background-color: #e9b8b8;
+  }.bodycontainer {
+  display: grid;
+  grid-template-columns: repeat(auto, auto);
+  grid-template-rows:auto;
+   width: 100%;
+   height:auto;
+   margin-top:5px;
+   padding-top:5px;
+   justify-self: center;
+ }
+  .content{
+    grid-column: 2/3;
+    height:auto;
+    justify-self: left;
+    margin-top:5px;
+    display: flex;
+    padding-top:5px;
+    justify-self: center;
+    flex-direction: column;
+ }
+.leftSaid {
+ grid-column: 1/2;
+  display: flex;
+
+  flex-direction: column;
+  margin-top:3%;
+  width: 30px;
+  transition: width 2s;
+  z-index: 1;
+}
+.leftSaid :hover{ 
+  width:250px;
+}.leftSaidList {
+  grid-column: 1/2;
+   display: flex;
+   position: fixed;
+   top:20%;
+   flex-direction: column;
+   margin-top:3%;
+   width: 30px;
+   transition: width 2s;
+   z-index: 1;
+ }
+ .leftSaidList :hover{ 
+   width:250px;
+ }
+
+.sidenav {
+  background-color: #3daf64;
+  border-radius: 5px;
+  margin-top: 2%;
+  box-shadow: 0px 4px 8px 0px #f21f1f;
+  padding-left: 5%;
+}
+.leftSidheders {
+  overflow:auto;
+  font-size:3vmax;
+  color: black;
+  font-family: Hedres;
+  text-decoration: none;
+  margin: 0%;
+  padding-top: 10%;
+  padding-left: 5%;
+
+}
+.Place {
+ 
+  overflow:auto;
+  list-style-type: none;
+  margin-top: 2%;
+  padding-left: 6px;
+  background-color: antiquewhite;
+  box-shadow: 0 4px 8px 0 #f21f1f;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: black;
+}
+.Place li {
+  padding-left: 10%;
+  margin: 3px;
+  font-size: 1.7vmax;
+  text-decoration: none;
+  padding-bottom: 8px;
+  font-family: Comic Sans MS;
+}
+.Place li a {
+  text-decoration: none;
+  color: black;
+}
+.Place li a:hover {
+  color: #27ae60;
+}
+.cardDescrption {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 95%;
+  background-color: white;
+  margin-top: 2%;
+  box-shadow: 0 4px 8px 0 #f21f1f;
+  align-self: center;
+  padding: 20px;
+}
+.card2 {
+  flex-direction: row-reverse;
+}
+.CardLeft {
+  font-family: Comic Sans MS;
+  font-size: 1.5vmax;
+  padding-left: 2%;
+  padding-top: 0%;
+  color: rgb(41, 37, 37);
+  width: 100%;
+  height: auto;
+  text-align: left;
+  text-indent: 10px;
+}
+.hotelPicture {
+  width: 40%;
+  max-height:300px;
+}
+#UpArrow {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-image: url(../icon/UpArrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  padding: 50px;
+  background-color: transparent;
+}
+#UpArrow:hover {
+  background-image:url(../icon/UpArrow.png);
+} .MainMenu {
+  grid-column: 1 /3;
+  grid-row: 2/3;
+  display: flex;
+  background-color: antiquewhite;
+  border-width: 5px;
+  box-shadow: 0 4px 8px 0 #f21f1f;
+  border-radius: 20px;
+  height:auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  z-index: 2;
+  top: 320px;
+  left: 15%;
+  align-self: center;
+  overflow:hidden;
+  justify-content: center;
+  flex-wrap:nowrap;
+  align-content: space-between;
+  white-space: nowrap;
+  width: 70%;
+}
+ .sticky {
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: antiquewhite;
+  border-width: 5px;
+  box-shadow: 0 4px 8px 0 #f21f1f;
+  border-radius: 20px;
+  height:auto;
+  width: 70%;
+  z-index: 2;
+  left: 15%;
+  align-self: center;
+}.sticky + .centerM {
+  padding-top: 60px;
+}
+@media screen and (max-width: 520px) {
+  .upheader{
+    margin-left: 10px;
+  }#new{
+    display: none;
+  }
+  .heder1{
+    font-size: 3vmax;
+  }#UpArrow {
+    width: 20px;
+  }
+  .bodycontainer{
+    position: relative;
+    width: 100%; 
+    padding: 0px;
+    left:-10px;
+  } 
+  .liftbanner{
+    grid-column: 1 /3;
+    grid-row: 1 /3;
+    display: flex;
+    justify-content: flex-end;
+
+  }#hamburger{
+   position: fixed;
+  width:25px;
+  height:20px;
+  margin-top: 10px;
+  margin-right:5px;
+  background: antiquewhite url("../icon/men.png") no-repeat;
+  background-size:contain;
+
+  }
+  .leftSaid {
+    width:5px;
+  } .banner {
+    height:100px;
+    margin-left: 10px;
+  }
+  }
